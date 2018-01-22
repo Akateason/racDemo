@@ -64,7 +64,7 @@
                         <outlet property="buttonLogin" destination="zzh-QE-u9C" id="TJD-7M-KFv"/>
                         <outlet property="passwordTextField" destination="2DB-PB-zfp" id="oQW-II-PuJ"/>
                         <outlet property="usernameTextField" destination="Vsp-QJ-9QG" id="rl3-uL-Wkb"/>
-                        <segue destination="gjG-NP-6VB" kind="push" id="usg-v8-QGa"/>
+                        <segue destination="gjG-NP-6VB" kind="push" identifier="signInSuccess" id="usg-v8-QGa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

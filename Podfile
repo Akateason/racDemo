@@ -7,5 +7,7 @@ target ‘racDemo’  do
 pod 'AFNetworking'
 pod 'Masonry'
 pod 'ReactiveObjC'
+pod 'SVProgressHUD'
+pod 'YYModel'
 
 end

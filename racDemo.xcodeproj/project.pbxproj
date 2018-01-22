@@ -14,6 +14,11 @@
 		7DA7ECF02011F42500C38B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA7ECEF2011F42500C38B8F /* Assets.xcassets */; };
 		7DA7ECF32011F42500C38B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA7ECF12011F42500C38B8F /* LaunchScreen.storyboard */; };
 		7DA7ECF62011F42500C38B8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ECF52011F42500C38B8F /* main.m */; };
+		7DA7ECFE201591DA00C38B8F /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ECFD201591DA00C38B8F /* RWDummySignInService.m */; };
+		7DA7ED01201599DD00C38B8F /* ServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ECFF201599DC00C38B8F /* ServerRequest.m */; };
+		7DA7ED1F20159A4600C38B8F /* XTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1620159A4600C38B8F /* XTRequest.m */; };
+		7DA7ED2020159A4600C38B8F /* XTReqSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1720159A4600C38B8F /* XTReqSessionManager.m */; };
+		7DA7ED2220159A4600C38B8F /* XTReqResonse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,17 @@
 		7DA7ECF22011F42500C38B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA7ECF42011F42500C38B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA7ECF52011F42500C38B8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DA7ECFC201591DA00C38B8F /* RWDummySignInService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
+		7DA7ECFD201591DA00C38B8F /* RWDummySignInService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
+		7DA7ECFF201599DC00C38B8F /* ServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerRequest.m; sourceTree = "<group>"; };
+		7DA7ED00201599DD00C38B8F /* ServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerRequest.h; sourceTree = "<group>"; };
+		7DA7ED1620159A4600C38B8F /* XTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTRequest.m; sourceTree = "<group>"; };
+		7DA7ED1720159A4600C38B8F /* XTReqSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTReqSessionManager.m; sourceTree = "<group>"; };
+		7DA7ED1820159A4600C38B8F /* XTReqResonse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTReqResonse.h; sourceTree = "<group>"; };
+		7DA7ED1A20159A4600C38B8F /* XTReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTReq.h; sourceTree = "<group>"; };
+		7DA7ED1B20159A4600C38B8F /* XTReqSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTReqSessionManager.h; sourceTree = "<group>"; };
+		7DA7ED1C20159A4600C38B8F /* XTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTRequest.h; sourceTree = "<group>"; };
+		7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTReqResonse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +81,15 @@
 		7DA7ECE52011F42500C38B8F /* racDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7DA7ED00201599DD00C38B8F /* ServerRequest.h */,
+				7DA7ECFF201599DC00C38B8F /* ServerRequest.m */,
+				7DA7ED1520159A4600C38B8F /* network */,
 				7DA7ECE62011F42500C38B8F /* AppDelegate.h */,
 				7DA7ECE72011F42500C38B8F /* AppDelegate.m */,
 				7DA7ECE92011F42500C38B8F /* ViewController.h */,
 				7DA7ECEA2011F42500C38B8F /* ViewController.m */,
+				7DA7ECFC201591DA00C38B8F /* RWDummySignInService.h */,
+				7DA7ECFD201591DA00C38B8F /* RWDummySignInService.m */,
 				7DA7ECEC2011F42500C38B8F /* Main.storyboard */,
 				7DA7ECEF2011F42500C38B8F /* Assets.xcassets */,
 				7DA7ECF12011F42500C38B8F /* LaunchScreen.storyboard */,
@@ -76,6 +97,20 @@
 				7DA7ECF52011F42500C38B8F /* main.m */,
 			);
 			path = racDemo;
+			sourceTree = "<group>";
+		};
+		7DA7ED1520159A4600C38B8F /* network */ = {
+			isa = PBXGroup;
+			children = (
+				7DA7ED1C20159A4600C38B8F /* XTRequest.h */,
+				7DA7ED1620159A4600C38B8F /* XTRequest.m */,
+				7DA7ED1B20159A4600C38B8F /* XTReqSessionManager.h */,
+				7DA7ED1720159A4600C38B8F /* XTReqSessionManager.m */,
+				7DA7ED1820159A4600C38B8F /* XTReqResonse.h */,
+				7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */,
+				7DA7ED1A20159A4600C38B8F /* XTReq.h */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		8D7884D1D56CA9FF29E66398 /* Pods */ = {
@@ -171,9 +206,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-racDemo/Pods-racDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,9 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA7ED2220159A4600C38B8F /* XTReqResonse.m in Sources */,
 				7DA7ECEB2011F42500C38B8F /* ViewController.m in Sources */,
+				7DA7ED2020159A4600C38B8F /* XTReqSessionManager.m in Sources */,
 				7DA7ECF62011F42500C38B8F /* main.m in Sources */,
 				7DA7ECE82011F42500C38B8F /* AppDelegate.m in Sources */,
+				7DA7ED1F20159A4600C38B8F /* XTRequest.m in Sources */,
+				7DA7ECFE201591DA00C38B8F /* RWDummySignInService.m in Sources */,
+				7DA7ED01201599DD00C38B8F /* ServerRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
