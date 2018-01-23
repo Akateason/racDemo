@@ -19,6 +19,7 @@
 		7DA7ED1F20159A4600C38B8F /* XTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1620159A4600C38B8F /* XTRequest.m */; };
 		7DA7ED2020159A4600C38B8F /* XTReqSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1720159A4600C38B8F /* XTReqSessionManager.m */; };
 		7DA7ED2220159A4600C38B8F /* XTReqResonse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */; };
+		7DA7ED272015C3FE00C38B8F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED262015C3FE00C38B8F /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		7DA7ED1B20159A4600C38B8F /* XTReqSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTReqSessionManager.h; sourceTree = "<group>"; };
 		7DA7ED1C20159A4600C38B8F /* XTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTRequest.h; sourceTree = "<group>"; };
 		7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTReqResonse.m; sourceTree = "<group>"; };
+		7DA7ED252015C3FE00C38B8F /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		7DA7ED262015C3FE00C38B8F /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +89,9 @@
 				7DA7ED1520159A4600C38B8F /* network */,
 				7DA7ECE62011F42500C38B8F /* AppDelegate.h */,
 				7DA7ECE72011F42500C38B8F /* AppDelegate.m */,
-				7DA7ECE92011F42500C38B8F /* ViewController.h */,
-				7DA7ECEA2011F42500C38B8F /* ViewController.m */,
-				7DA7ECFC201591DA00C38B8F /* RWDummySignInService.h */,
-				7DA7ECFD201591DA00C38B8F /* RWDummySignInService.m */,
 				7DA7ECEC2011F42500C38B8F /* Main.storyboard */,
+				7DA7ED242015C18B00C38B8F /* search */,
+				7DA7ED232015C17C00C38B8F /* login */,
 				7DA7ECEF2011F42500C38B8F /* Assets.xcassets */,
 				7DA7ECF12011F42500C38B8F /* LaunchScreen.storyboard */,
 				7DA7ECF42011F42500C38B8F /* Info.plist */,
@@ -111,6 +112,26 @@
 				7DA7ED1A20159A4600C38B8F /* XTReq.h */,
 			);
 			path = network;
+			sourceTree = "<group>";
+		};
+		7DA7ED232015C17C00C38B8F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7DA7ECE92011F42500C38B8F /* ViewController.h */,
+				7DA7ECEA2011F42500C38B8F /* ViewController.m */,
+				7DA7ECFC201591DA00C38B8F /* RWDummySignInService.h */,
+				7DA7ECFD201591DA00C38B8F /* RWDummySignInService.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		7DA7ED242015C18B00C38B8F /* search */ = {
+			isa = PBXGroup;
+			children = (
+				7DA7ED252015C3FE00C38B8F /* SearchViewController.h */,
+				7DA7ED262015C3FE00C38B8F /* SearchViewController.m */,
+			);
+			path = search;
 			sourceTree = "<group>";
 		};
 		8D7884D1D56CA9FF29E66398 /* Pods */ = {
@@ -262,6 +283,7 @@
 				7DA7ECEB2011F42500C38B8F /* ViewController.m in Sources */,
 				7DA7ED2020159A4600C38B8F /* XTReqSessionManager.m in Sources */,
 				7DA7ECF62011F42500C38B8F /* main.m in Sources */,
+				7DA7ED272015C3FE00C38B8F /* SearchViewController.m in Sources */,
 				7DA7ECE82011F42500C38B8F /* AppDelegate.m in Sources */,
 				7DA7ED1F20159A4600C38B8F /* XTRequest.m in Sources */,
 				7DA7ECFE201591DA00C38B8F /* RWDummySignInService.m in Sources */,
@@ -400,6 +422,7 @@
 			baseConfigurationReference = 43EBF824EBCB5986F55320BA /* Pods-racDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83SLLMU85B;
 				INFOPLIST_FILE = racDemo/Info.plist;
@@ -415,6 +438,7 @@
 			baseConfigurationReference = 257E96894B4DF3B8C1BAF5FB /* Pods-racDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83SLLMU85B;
 				INFOPLIST_FILE = racDemo/Info.plist;

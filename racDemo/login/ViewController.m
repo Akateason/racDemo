@@ -102,7 +102,8 @@
 //     }] ;
     
 //
-    [[[[self.buttonLogin rac_signalForControlEvents:UIControlEventTouchUpInside] doNext:^(__kindof UIControl * _Nullable x) {
+    [[[[self.buttonLogin rac_signalForControlEvents:UIControlEventTouchUpInside]
+       doNext:^(__kindof UIControl * _Nullable x) {
         self.buttonLogin.enabled = NO ;
         self.buttonLogin.backgroundColor = [UIColor lightGrayColor] ;
     }]
