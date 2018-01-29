@@ -12,6 +12,13 @@
 
 @interface ServerRequest : NSObject
 
++ (void)searchWithString:(NSString *)str
+                 success:(void (^)(id json))success
+                    fail:(void (^)(void))fail ;
+
++ (void)getUserInfoSuccess:(void (^)(id json))success
+                      fail:(void (^)(void))fail ;
+
 + (void)zample2WithSuccess:(void (^)(id json))success
                       fail:(void (^)(void))fail ;
 

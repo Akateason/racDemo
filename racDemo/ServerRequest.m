@@ -9,12 +9,27 @@
 
 #import "ServerRequest.h"
 
-//#import "UrlRequestHeader.h"
-
-
 
 @implementation ServerRequest
 
++ (void)searchWithString:(NSString *)str
+                 success:(void (^)(id json))success
+                    fail:(void (^)(void))fail
+{
+    [XTRequest GETWithUrl:@"https://api.douban.com/v2/book/search"
+               parameters:@{@"q":str}
+                  success:success
+                     fail:fail] ;
+}
+
++ (void)getUserInfoSuccess:(void (^)(id json))success
+                      fail:(void (^)(void))fail
+{
+    [XTRequest GETWithUrl:@"https://api.douban.com/v2/user/1000002"  //@"https://api.douban.com/v2/user/1000002"
+               parameters:nil
+                  success:success
+                     fail:fail] ;
+}
 
 + (void)zample2WithSuccess:(void (^)(id json))success
                       fail:(void (^)(void))fail
