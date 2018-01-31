@@ -20,6 +20,8 @@
 		7DA7ED2020159A4600C38B8F /* XTReqSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1720159A4600C38B8F /* XTReqSessionManager.m */; };
 		7DA7ED2220159A4600C38B8F /* XTReqResonse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */; };
 		7DA7ED272015C3FE00C38B8F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7ED262015C3FE00C38B8F /* SearchViewController.m */; };
+		7DBF8FC02021FADE0030C3D5 /* RACSubjectPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF8FBF2021FADE0030C3D5 /* RACSubjectPlayerVC.m */; };
+		7DBF8FC62021FB1F0030C3D5 /* RACSubjectSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF8FC52021FB1F0030C3D5 /* RACSubjectSecondVC.m */; };
 		7DD6E386201F30DF0049EA1F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6E385201F30DF0049EA1F /* Book.m */; };
 		7DD6E38A201F356C0049EA1F /* RootTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6E389201F356B0049EA1F /* RootTableCell.m */; };
 		7DD6E38D201F35930049EA1F /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6E38C201F35930049EA1F /* BookTableViewCell.m */; };
@@ -52,6 +54,10 @@
 		7DA7ED1E20159A4600C38B8F /* XTReqResonse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTReqResonse.m; sourceTree = "<group>"; };
 		7DA7ED252015C3FE00C38B8F /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		7DA7ED262015C3FE00C38B8F /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		7DBF8FBE2021FADE0030C3D5 /* RACSubjectPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectPlayerVC.h; sourceTree = "<group>"; };
+		7DBF8FBF2021FADE0030C3D5 /* RACSubjectPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectPlayerVC.m; sourceTree = "<group>"; };
+		7DBF8FC42021FB1F0030C3D5 /* RACSubjectSecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectSecondVC.h; sourceTree = "<group>"; };
+		7DBF8FC52021FB1F0030C3D5 /* RACSubjectSecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectSecondVC.m; sourceTree = "<group>"; };
 		7DD6E384201F30DF0049EA1F /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		7DD6E385201F30DF0049EA1F /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		7DD6E388201F356B0049EA1F /* RootTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableCell.h; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 				7DA7ECEC2011F42500C38B8F /* Main.storyboard */,
 				7DA7ED242015C18B00C38B8F /* search */,
 				7DA7ED232015C17C00C38B8F /* login */,
+				7DBF8FBD2021FAA00030C3D5 /* RACSubject */,
 				7DA7ECEF2011F42500C38B8F /* Assets.xcassets */,
 				7DA7ECF12011F42500C38B8F /* LaunchScreen.storyboard */,
 				7DA7ECF42011F42500C38B8F /* Info.plist */,
@@ -146,6 +153,17 @@
 				7DD6E385201F30DF0049EA1F /* Book.m */,
 			);
 			path = search;
+			sourceTree = "<group>";
+		};
+		7DBF8FBD2021FAA00030C3D5 /* RACSubject */ = {
+			isa = PBXGroup;
+			children = (
+				7DBF8FBE2021FADE0030C3D5 /* RACSubjectPlayerVC.h */,
+				7DBF8FBF2021FADE0030C3D5 /* RACSubjectPlayerVC.m */,
+				7DBF8FC42021FB1F0030C3D5 /* RACSubjectSecondVC.h */,
+				7DBF8FC52021FB1F0030C3D5 /* RACSubjectSecondVC.m */,
+			);
+			path = RACSubject;
 			sourceTree = "<group>";
 		};
 		7DD6E387201F35470049EA1F /* Util */ = {
@@ -303,6 +321,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD6E386201F30DF0049EA1F /* Book.m in Sources */,
+				7DBF8FC02021FADE0030C3D5 /* RACSubjectPlayerVC.m in Sources */,
+				7DBF8FC62021FB1F0030C3D5 /* RACSubjectSecondVC.m in Sources */,
 				7DA7ED2220159A4600C38B8F /* XTReqResonse.m in Sources */,
 				7DA7ECEB2011F42500C38B8F /* ViewController.m in Sources */,
 				7DA7ED2020159A4600C38B8F /* XTReqSessionManager.m in Sources */,
