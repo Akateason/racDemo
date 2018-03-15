@@ -25,6 +25,7 @@
 		7DD6E386201F30DF0049EA1F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6E385201F30DF0049EA1F /* Book.m */; };
 		7DD6E38A201F356C0049EA1F /* RootTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6E389201F356B0049EA1F /* RootTableCell.m */; };
 		7DD6E38D201F35930049EA1F /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6E38C201F35930049EA1F /* BookTableViewCell.m */; };
+		8FDE2070205AA430003B5398 /* MultitaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE206F205AA430003B5398 /* MultitaskVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,8 @@
 		7DD6E389201F356B0049EA1F /* RootTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableCell.m; sourceTree = "<group>"; };
 		7DD6E38B201F35930049EA1F /* BookTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
 		7DD6E38C201F35930049EA1F /* BookTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		8FDE206E205AA430003B5398 /* MultitaskVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultitaskVC.h; sourceTree = "<group>"; };
+		8FDE206F205AA430003B5398 /* MultitaskVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultitaskVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				7DA7ECE62011F42500C38B8F /* AppDelegate.h */,
 				7DA7ECE72011F42500C38B8F /* AppDelegate.m */,
 				7DA7ECEC2011F42500C38B8F /* Main.storyboard */,
+				8FDE206D205AA3C3003B5398 /* multitask */,
 				7DA7ED242015C18B00C38B8F /* search */,
 				7DA7ED232015C17C00C38B8F /* login */,
 				7DBF8FBD2021FAA00030C3D5 /* RACSubject */,
@@ -182,6 +186,15 @@
 				257E96894B4DF3B8C1BAF5FB /* Pods-racDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FDE206D205AA3C3003B5398 /* multitask */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE206E205AA430003B5398 /* MultitaskVC.h */,
+				8FDE206F205AA430003B5398 /* MultitaskVC.m */,
+			);
+			path = multitask;
 			sourceTree = "<group>";
 		};
 		A8EDC778D9B09E50BAA1E6B3 /* Frameworks */ = {
@@ -336,6 +349,7 @@
 				7DA7ECF62011F42500C38B8F /* main.m in Sources */,
 				7DA7ED272015C3FE00C38B8F /* SearchViewController.m in Sources */,
 				7DA7ECE82011F42500C38B8F /* AppDelegate.m in Sources */,
+				8FDE2070205AA430003B5398 /* MultitaskVC.m in Sources */,
 				7DA7ED1F20159A4600C38B8F /* XTRequest.m in Sources */,
 				7DA7ECFE201591DA00C38B8F /* RWDummySignInService.m in Sources */,
 				7DA7ED01201599DD00C38B8F /* ServerRequest.m in Sources */,
